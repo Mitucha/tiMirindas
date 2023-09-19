@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    max-width: 1400px;
+    overflow: scroll;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.header {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 5;
+}
+
+ul {
+    float: right;
+    width: 1000px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    padding-left: 2em;
+    padding-bottom: .5em;
+    cursor: pointer;
+    transition: .4s;
+    color: #757575;
+}
+
+li:hover {
+    border-bottom: 1px solid #e39101;
+    color: white;
+}
+
+header img {
+    width: 150px;
+    height: 70px;
+}
+
+.logo {
+    width: 80px;
+    height: 150px;
+    padding-top: 200px;
+    margin-top: -200px;
+    padding-left: 37px;
+    margin-left: -37px;
+    background-color: #e39101;
+    /*padding-left: 100px;
+    margin-left: -70px;
+    margin-top: -50px;
+    padding-top: 50px;
+    width: 85px;*/
+}
+
+.App .ooo {
+    width: 100px;
+    min-height: 100px;
+}

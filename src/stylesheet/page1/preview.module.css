@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.preview {
+    z-index: 1;
+    width: 1400px;
+    overflow: hidden;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.preview img {
+    width: 800px;
+    margin-top: -200px;
+    display: block;
+    float: right;
+}
+
+.previewText {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 26px;
+    z-index: 6;
+    display: block;
+    width: 500px;
+    float: left;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -320px;
+}

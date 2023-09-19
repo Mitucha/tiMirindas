@@ -1,0 +1,42 @@
+.AboutUs {
+    width: 100%;
+    /*border: 1px solid white;*/
+    margin-bottom: 70px;
+    /*height: 500px;*/
+}
+
+iframe {
+    margin: 20px 20px;
+    border: 5px solid #e39101;
+    border-radius: 7px;
+    filter: grayscale(1) invert(100%);
+    left: 100px;
+    z-index: 9;
+    position: relative;
+}
+
+.text {
+    display: block;
+    position: relative;
+    right: 0;
+    border: 5px solid #e39101;
+    border-radius: 15px;
+    height: 465px;
+    width: 900px;
+    float: right;
+    margin-top: -460px;
+    margin-right: 150px;
+    padding-right: 30px;
+}
+
+.textAboutUs {
+    width: 500px;
+    text-align: justify;
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+span {
+    color: #e39101;
+}
